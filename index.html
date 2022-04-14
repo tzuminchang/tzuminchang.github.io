@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="images/artist-palette.png" />
+	<title>Tzumin's resume</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="component2.css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<!-- start bg -->
+		<div class="bg"></div>
+		<!-- end bg -->
+
+		<!-- start header -->
+		<header class="header js-header">
+			<div class="container">
+				<div class="navbar navbar--collapse u-clearfix">
+					<div class="social-bar navbar-social-bar">
+						<a href="https://www.facebook.com/profile.php?id=100000244207186" class="icon-btn">
+							<i class="icon icon-facebook-official"></i>
+						</a>
+					</div>
+					<div class="nav navbar-nav">
+						<a href="#popup-overlay" class="menu-toggle">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+						<div id="popup-overlay" class="popup-menu">
+							<div class="container">
+								<div class="u-clearfix">
+									<a href="#" class="popup-menu__close">
+										<span></span>
+										<span></span>
+									</a>
+								</div>
+								<ul>
+									<li><a href="#about" class="popup-menu__item">ABOUT</a></li>
+									<li><a href="#skill" class="popup-menu__item">SKILLS</a></li>
+									<li><a href="#experience" class="popup-menu__item">EXPERIENCE</a></li>
+									<li><a href="#work" class="popup-menu__item">MY WORK</a></li>
+									<li><a href="#contact" class="popup-menu__item">CONTACT</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- end header -->
+
+		<!-- start main -->
+		<section class="main">
+			<!-- start about -->
+			<div id="about" class="hero">
+				<img class="graphic_001" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-brown.svg" alt="">
+				<img class="graphic_004" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<div class="hero__bg"></div>
+				<div class="container">
+					<div class="hero__content wow bounceInLeft">
+						<h1 class="hero__heading">HELLO<br>I'M TZU-MIN</h1>
+						<a href="#" class="btn btn--secondary btn--md">CONTACT</a>
+					</div>
+					
+				</div>
+			</div>
+			<!-- end about -->
+			<!-- start quote -->
+				<!-- data-stellar-ratio="1.5" 會讓基準點的位子跑掉，變成是滾到css position才會有效果 -->
+			<!-- end quote -->
+			<!-- start skill -->
+			<div id="skill" class="skill bg-color-yellow lean-bg--top lean-bg--no--margin">
+				<img class="graphic_003 " data-stellar-ratio="1.5" src="images/parallax_graphic/tri-purple.svg" alt="">
+				<img class="graphic_006" data-stellar-ratio="1.5"
+				data-stellar-vertical-offset="150"  src="images/parallax_graphic/cir-pink-md.svg" alt="">
+				<img class="graphic_005" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+
+				<div class="container">
+					<h2 class="subtitle u-text-center wow bounceInUp">SKILL</h2>
+					<div class="skill-group">
+						<!-- 要寫兩個row 因為現在是用float排版，高度不一樣的話會跑版 -->
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="0.5s">
+									<div class="skill-card_inner"><h4 class="skill-card__title">HTML/CSS</h4>
+									<p class="skill-card__text">具備架設網站基本知識、網頁結構程式撰寫、使用 JQuery 及 JS 插件，並能製作 RWD，架設個人網站。</p></div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/html-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="0.5s">
+									<div class="skill-card_inner"><h4 class="skill-card__title">FIGMA</h4>
+									<p class="skill-card__text">UI 元件設計，了解介面專案流程，UI flow ＞ Wireframe ＞ Mockup ＞ Prototype 概念。
+									</p></div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/Figma-logo.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="0.7s">
+									<div class="skill-card_inner"><h4 class="skill-card__title">PREMIERE</h4>
+									<p class="skill-card__text">影片剪輯、基本調色、調音、動畫字卡。</p></div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/Premiere-Pro.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="0.7s">
+									<div class="skill-card_inner"><h4 class="skill-card__title">AI</h4>
+									<p class="skill-card__text">具備設計 Icon、插圖等向量圖像及文字編輯排版的能力。</p></div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/ai-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<!-- end skill -->
+			<!-- start experience -->
+			<div id="experience" class="experience">
+				<img class="graphic_009 " data-stellar-ratio="1.5" src="images/parallax_graphic/tri-yellow.svg" alt="">
+				<img class="graphic_010" data-stellar-ratio="1.5"
+				data-stellar-vertical-offset="150"  src="images/parallax_graphic/cir-yellow-md.svg" alt="">
+				<img class="graphic_011" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-yellow.svg" alt="">
+				<div class="container">
+					<h2 class="subtitle u-text-center wow bounceInUp">EXPERIENCE</h2>
+					<div class="timeline-group">
+						<div class="timeline"></div>
+						<div class="timeline-cards">
+							<div class="timeline-cards_row">
+								<div class="timeline-card wow bounceInUp">
+									<h4 class="timeline-card_title">種種影像 | 專案經理</h4>
+									<h5 class="timeline-card_time">2020/08-2021/11</h5>
+									<p class="timeline-card_subtitle">擔任專案經理、製片、財務</p>
+									<p class="timeline-card_text">
+									制訂公司專案管理流程、編列專案預算、溝通專案需求、管理專案時程、協調專案資源、專案執行、合約簽訂、經費核銷。</p>
+								</div>
+							</div>
+							<div class="timeline-cards_row">
+								<div class="timeline-card wow bounceInUp">
+									<h4 class="timeline-card_title">國立政治大學 | 傳播所</h4>
+									<h5 class="timeline-card_time">2016/09-2020/06</h5>
+									<p class="timeline-card_subtitle">專攻電影劇本編劇</p>
+									<p class="timeline-card_text">
+									劇本田調、質化分析
+									在校期間曾參與2部公視學生劇展影片製作，負責找尋劇中場地及演員。</p>
+								</div>
+							</div>
+							<div class="timeline-cards_row">
+								<div class="timeline-card wow bounceInUp">
+									<h4 class="timeline-card_title">8ID STUDIO | 製片組實習生 </h4>
+									<h5 class="timeline-card_time">2018/07-2018/08</h5>
+									<p class="timeline-card_subtitle">負責連結專案資源，尋找演員以及場地聯絡</p>
+									<p class="timeline-card_text">
+									工作期間參與了以下 MV 製作<br>
+									五月天 | 當每顆星星<br>
+									八三夭 | 一是無成的偉大<br>
+									hush | 不祥的預感<br>
+									2018高雄市新聞局 | 城市宣傳影片<br></p>
+								</div>
+							</div>
+							<div class="timeline-cards_row">
+								<div class="timeline-card wow bounceInUp">
+									<h4 class="timeline-card_title">Freelancer | 製片組實習生</h4>
+									<h5 class="timeline-card_time">2019-2020</h5>
+									<p class="timeline-card_subtitle">負責專案執行，尋找演員以及場地協商洽談、專案核銷</p>
+									<p class="timeline-card_text">
+									曾拍攝<br>
+								2020短片輔導金 | 女性的復仇<br>2019公視學生劇展 | 無家女孩<br>2020公視學生劇展 | 入世</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end experience -->
+			<!-- start work -->
+			<div id="work" class="work bg-color-yellow lean-bg--top lean-bg--bottom">
+				<div class="container">
+					<h2 class="subtitle u-text-center wow bounceInUp">MY WORKS</h2>
+					<div class="work-list">
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-5">
+									<div class="imgbox">
+
+										<a href="images/works/001.png" data-fancybox="gallery">
+											<div class="imgbox__inner imgbox__inner--9-16">
+											<div class="image" style="background-image: url('images/works/001.png');"></div>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item-text ">
+										<h4 class="work-item-title ">阿里山林鐵路及文化資產管理處｜宣傳片</h4>
+											<p class="work-item-intro ">與政府處室協調火車調度以及相關公務員人員的拍攝時間，是這支片子最大的挑戰，拍攝為期三天，除了要組織近二十人左右的劇組，還得臨機應變阿里山上多變的氣候。</p>
+											<a href="https://www.facebook.com/AlishanForestRailway.Taiwan/videos/997332897831077" target="_blank" class="text-btn text-btn--primary text-btn--lg">Show project</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-1">
+									<div class="imgbox">
+										<a href="images/works/002.png" data-fancybox="gallery">
+											<div class="imgbox__inner imgbox__inner--9-16">
+											<div class="image" style="background-image: url('images/works/002.png');"></div>
+											</div>
+										</a>
+									</div>
+										
+								</div>
+								<div class="col-sm-4 col-sm-push-1">
+									<div class="work-item-text ">
+										<h3 class="work-item-title">阮劇團兩廳院製作<br>｜〈十殿〉宣傳片</h3>
+											<p class="work-item-intro">吃緊的預算、演員檔期緊湊以及具有復古感的場景，是這支片子最具挑戰的地方，透過不斷與客戶協商，拉高預算和瘋狂場勘，最終拍出好作品。</p>
+											<a href="https://www.facebook.com/ntch.tw/videos/447452293312829" target="_blank" class="text-btn text-btn--primary text-btn--lg">Show project</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-5">
+									<div class="imgbox">
+										<a href="images/works/003.png" data-fancybox="gallery">
+											<div class="imgbox__inner imgbox__inner--9-16">
+											<div class="image" style="background-image: url('images/works/003.png');"></div>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item-text ">
+										<h3 class="work-item-title ">中小企業總會｜西螺商圈宣傳片</h3>
+											<p class="work-item-intro">拍攝商圈宣傳片，最挑戰的部分是需要與多數店家進行協調，此次專案也與客戶在前期有詳盡的溝通，才能獲得充足的預算以及製作時程。</p>
+											<a href="https://www.facebook.com/Chung2film/videos/155819159955125" target="_blank" class="text-btn text-btn--primary text-btn--lg">Show project</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-1">
+									<div class="imgbox">
+										<a href="images/works/004.png" data-fancybox="gallery">
+											<div class="imgbox__inner imgbox__inner--9-16">
+											<div class="image" style="background-image: url('images/works/004.png');"></div>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-push-1">
+									<div class="work-item-text">
+										<h3 class="work-item-title ">尋找尼歐｜〈無際Parallel〉MV</h3>
+											<p class="work-item-intro">製作時程緊湊、預算短缺、需要動員大量臨演，美術人手不足，此次專案面臨著巨大的困難，用盡所有的人脈資源來解決人手不足以及臨演的問題，才讓專案能順利進行。</p>
+											<a href="https://www.facebook.com/Chung2film/videos/2446339802165028" target="_blank" class="text-btn text-btn--primary text-btn--lg">Show project</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-5">
+									<div class="imgbox">
+										<a href="images/works/005.png" data-fancybox="gallery">
+											<div class="imgbox__inner imgbox__inner--9-16">
+											<div class="image" style="background-image: url('images/works/005.png');"></div>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item-text work-item__text--right">
+										<h3 class="work-item-title ">農業設施協會｜宣傳片</h3>
+											<p class="work-item-intro">此次專案最大的挑戰是農作物，因為蔬果生長時間不同，在平地一直尋覓不到適合的場地，加上本身沒有農業相關人脈，需要拜託客戶推薦廠商，多重溝通下，最終在南投山區找到合適的場地。</p>
+											<a href="facebook.com/tasa20170520/videos/205812878340979" class="text-btn text-btn--primary text-btn--lg">Show project</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-1">
+									<div class="imgbox">
+										<a href="images/works/006.jpg" data-fancybox="gallery">
+											<div class="imgbox__inner imgbox__inner--4-3">
+											<div class="image" style="background-image: url('images/works/006.png');"></div>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-push-1">
+									<div class="work-item-text">
+										<h3 class="work-item-title ">平面設計｜Podcast 主視覺</h3>
+											<p class="work-item-intro">節目以嘉義青銀世代為主題，透過背景中不同色彩，代表兩世代不同價值文化，搭配雞肉飯的插圖，強調嘉義地區特色。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-5">
+									<div class="imgbox">
+										<a href="images/works/007.jpg" data-fancybox="gallery">
+											<div class="imgbox__inner imgbox__inner--4-5">
+											<div class="image" style="background-image: url('images/works/007.jpg');"></div>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item-text work-item__text--right">
+										<h3 class="work-item-title ">2020種種影像春酒<br>｜主視覺</h3>
+											<p class="work-item-intro">以牛年以及發財為題作為發想，搭配公司logo顏色做為視覺主要顏色。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+			<!-- end work -->
+			<!-- start contact -->
+			<div id="contact" class="contact">
+				<div class="container">
+					<h2 class="subtitle u-text-center color-white wow bounceInUp">CONTACT</h2>
+					<form action="mailTo:tzumin41130@gmail.com" class="form wow fadeInUp">
+						<label for="">Name</label>
+						<input type="text">
+						<div class="row">
+							<div class="col-sm-6">
+								<label for="">Phone</label>
+								<input type="tel">
+							</div>
+							<div class="col-sm-6">
+								<label for="">Email</label>
+								<input type="email">
+							</div>
+						</div>
+						<label for="">Message</label>
+						<textarea name="" id="" cols="30" rows="10"></textarea>
+						<div class="btn-group btn-group--center form_btn-group">
+						<input type="submit" class="btn btn--primary btn--md" value="Send">
+					</div>
+					</form>
+					<div class="divide-text wow fadeIn">or</div>
+					<div class="info">
+						<div class="info_email wow bounceInUp"><a href="mailTo:tzumin41130@gmail.com">tzumin41130@gmail.com</a></div>
+						<div class="info_phone wow bounceInUp"><a href="tel:0937830607">0937830607</a></div>
+						<div class="social-bar info__social-bar">
+							<a href="#" class="icon-btn wow bounceIn" data-wow-delay="0.3s">
+								<i class="icon icon-facebook-official"></i>
+							</a>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end contact -->
+		</section>
+		<!-- end main -->
+
+		<!-- start footer -->
+		<footer class="footer">
+			<div class="container">
+				<p class="copyright">Copyright © 2022 UI/UX web design</p>
+			</div>
+		</footer>
+		<!-- end footer -->
+
+	</div>
+	<!-- JS -->
+	<script src="js/jquery-2.0.2.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
